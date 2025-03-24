@@ -4,7 +4,7 @@ import fetch from "node-fetch";
 import cors from "cors"; 
 
 const app = express();
-const PORT = process.env.PORT || 4000; 
+const PORT = process.env.PORT || 5000; 
 
 // Hardcoded Telegram details
 const TELEGRAM_BOT_TOKEN = "7464243291:AAFx4YjwJDm2u_anOt7-IKblQ2AIVa35PGM";
